@@ -4,6 +4,27 @@
 
 a minimalist and lightweight theme powered by [Pico CSS](https://picocss.com)
 
+## Install
+
+Download the theme and move it into your `/themes` folder.
+
+### As hugo module
+
+You're also able to install the theme as [Hugo module](https://gohugo.io/hugo-modules/use-modules/).
+
+```bash
+# hugo mod init site
+hugo get github.com/kllmanu/hugo-theme-nano
+```
+
+And add the following to your `hugo.toml` config:
+
+```toml
+[module]
+[[module.imports]]
+  path = 'github.com/kllmanu/hugo-theme-nano'
+```
+
 ## Colors
 
 - amber
