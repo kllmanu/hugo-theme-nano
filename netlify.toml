@@ -1,5 +1,5 @@
 [build]
-    command = "hugo build --source exampleSite"
+    command = "hugo build --source exampleSite --themesDir ./"
     publish = "exampleSite/public"
 
 [build.environment]
