@@ -1,10 +1,12 @@
 {{ define "main" }}
   <header>
     <h1>{{ .Title }}</h1>
-    {{ partial "time.html" (dict "Date" .Date "format" ":date_long") }}
+    {{ partial "time.html" . }}
   </header>
 
   <div class="content">
+    {{ partial "cover.html" . }}
+
     {{ .Content }}
   </div>
 
