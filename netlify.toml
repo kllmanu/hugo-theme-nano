@@ -1,0 +1,6 @@
+[build]
+    command = "make build"
+    publish = "exampleSite/public"
+
+[build.environment]
+    HUGO_VERSION = "0.149.0"
