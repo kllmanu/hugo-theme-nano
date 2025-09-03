@@ -1,5 +1,5 @@
 serve:
-	hugo serve --bind 0.0.0.0
+	hugo serve --bind 0.0.0.0 --contentDir demo
 
 build:
-	hugo build
+	hugo build --source exampleSite --themesDir ../..

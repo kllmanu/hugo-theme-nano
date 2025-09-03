@@ -1,27 +1,3 @@
-baseURL = 'https://hugo-theme-nano.netlify.app/'
-languageCode = 'en-us'
-title = 'Nano theme'
-
-[params]
-description = 'slightly a billionth of a theme'
-color = 'azure'
-
-[menus]
-  [[menus.main]]
-    name = 'Home'
-    pageRef = '/'
-    weight = 10
-
-  [[menus.main]]
-    name = 'Posts'
-    pageRef = '/posts'
-    weight = 20
-
-  [[menus.main]]
-    name = 'Tags'
-    pageRef = '/tags'
-    weight = 30
-
 [module]
   [module.hugoVersion]
     extended = false

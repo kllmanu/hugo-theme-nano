@@ -1,6 +1,7 @@
 [build]
+    publish = "exampleSite/public"
     command = "make build"
-    publish = "public"
 
 [build.environment]
     HUGO_VERSION = "0.149.0"
+    HUGO_THEME = "repo"
