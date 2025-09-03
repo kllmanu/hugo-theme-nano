@@ -1,7 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Nano theme'
-theme = 'hugo-theme-nano'
 
 [params]
 description = 'slightly a billionth of a theme'
