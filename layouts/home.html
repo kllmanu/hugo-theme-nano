@@ -2,7 +2,7 @@
   {{ .Content }}
   <hr />
   <ul class="latest-posts">
-    {{ range site.RegularPages }}
+    {{ range where site.RegularPages ".Date" "!=" nil }}
       <li>
         {{ partial "time.html" . }}
         <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
