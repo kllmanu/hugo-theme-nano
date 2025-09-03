@@ -1,5 +1,5 @@
 [build]
-    command = "make build"
+    command = "hugo build --source exampleSite"
     publish = "exampleSite/public"
 
 [build.environment]
