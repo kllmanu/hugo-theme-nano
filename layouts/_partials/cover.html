@@ -1,0 +1,4 @@
+{{- $cover := .Resources.GetMatch "cover.*" -}}
+{{- if $cover -}}
+  <img src="{{ $cover.RelPermalink }}" alt="{{ $cover.Title }}" width="{{ $cover.Width }}" height="{{ $cover.Height }}" class="cover" />
+{{- end -}}
