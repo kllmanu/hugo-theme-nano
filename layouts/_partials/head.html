@@ -25,6 +25,7 @@
   img {
     width: 100%;
     height: auto;
+    background-color: var(--pico-primary);
   }
 
   time {
@@ -53,7 +54,20 @@
     }
   }
 
+  blockquote {
+    border-color: var(--pico-primary);
+    color: var(--pico-secondary);
+    padding-top: 0;
+    padding-bottom: 0;
+
+    p {
+      font-size: smaller;
+      color: inherit !important;
+    }
+  }
+
   .terms {
+    text-transform: lowercase;
     display: flex;
     gap: 0.5rem;
     padding: 0;
