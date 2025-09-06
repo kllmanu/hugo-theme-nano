@@ -10,12 +10,14 @@
   {{- end }}
 {{- end }}
 
+{{ if fileExists "static/style.css" }}
+  <link rel="stylesheet" href="/style.css" />
+{{ end }}
 
 
 <link rel="stylesheet" href="/chroma-modus-operandi.css" media="screen and (prefers-color-scheme: light)" />
 <link rel="stylesheet" href="/chroma-modus-vivendi.css" media="screen and (prefers-color-scheme: dark)" />
 
-<link rel="stylesheet" href="/style.css" />
 <style>
   body {
     max-width: 40rem;
