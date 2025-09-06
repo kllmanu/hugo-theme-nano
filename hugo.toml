@@ -1,3 +1,6 @@
+[markup.highlight]
+  noClasses = false
+
 [module]
   [module.hugoVersion]
     extended = false
