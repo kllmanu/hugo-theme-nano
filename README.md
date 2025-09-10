@@ -14,7 +14,7 @@ You're also able to install the theme as [Hugo module](https://gohugo.io/hugo-mo
 
 ```bash
 # hugo mod init site
-hugo get github.com/kllmanu/hugo-theme-nano
+hugo mod get github.com/kllmanu/hugo-theme-nano
 ```
 
 And add the following to your `hugo.toml` config:
